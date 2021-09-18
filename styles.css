@@ -70,5 +70,10 @@ div#browniepic{
   background-position:center,center;
   width:auto;
   height:30vh;
+  text-align:center;
+  color:#603A40;
+  font-family:'Akaya Kanadaka', cursive;
+  font-weight:bolder;
+  font-size:30px;
  }
 
