@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Kanadaka&family=Roboto&display=swap');
+
+*{
+  box-sizing:border-box;
+}
+
 body {
   background-color: #e0a890;
   border-style: dashed;
@@ -56,8 +61,14 @@ strong {
   color: red;
 }
 
-/**** adding image above recipe title ***//
+/**** adding image above recipe title ***/
+div#browniepic{
+  background-image: url("https://pixabay.com/get/g70fd351bcf3966b85c87c25b320dd1a07b90f23e0127a984a74366ede3975c9666398e6d889f4e633715724087eec858_640.jpg");
+  background-size:cover;
+  padding-top: 10vh;
+  padding-bottom:10vh;
+  background-position:center,center;
+  width:auto;
+  height:30vh;
+ }
 
-img#brownies{
-  
-}
