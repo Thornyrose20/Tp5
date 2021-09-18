@@ -33,6 +33,8 @@ ol {
 
 /** when window size changes **/
 
+
+
 @media (orientation:landscape){
   width: calc(100vw/3);
     float: left;
@@ -52,4 +54,10 @@ li {
 b,
 strong {
   color: red;
+}
+
+/**** adding image above recipe title ***//
+
+img#brownies{
+  
 }
