@@ -5,6 +5,10 @@
   box-sizing:border-box;
 }
 
+div{
+  
+}
+
 body {
   background-color: #e0a890;
   border-style: dashed;
@@ -63,7 +67,7 @@ strong {
 
 /**** adding image above recipe title ***/
 div#browniepic{
-  background-image: url("https://pixabay.com/get/g70fd351bcf3966b85c87c25b320dd1a07b90f23e0127a984a74366ede3975c9666398e6d889f4e633715724087eec858_640.jpg");
+  background-image: url("https://pixabay.com/get/gfe5042095da5fa5cea805d01bd096737f8516eba310bfcf394085b136c3450f6a3715e3d687962caf4fec37f316142ef_640.jpg");
   background-size:cover;
   padding-top: 10vh;
   padding-bottom:10vh;
@@ -71,9 +75,45 @@ div#browniepic{
   width:auto;
   height:30vh;
   text-align:center;
-  color:#603A40;
+  color:black;
   font-family:'Akaya Kanadaka', cursive;
   font-weight:bolder;
-  font-size:30px;
+  font-size:80px;
+
  }
 
+/****** Navigation Bar ***/
+
+#nav{
+  background:#FEC3A6;
+  overflow:auto;
+  width:100vw;
+  height:3rem;
+  position:absolute;
+  top:0;
+  left:0;
+  
+}
+
+#nav a{
+  display:block;
+  padding:10px;
+  background-color:#FEC3A6;
+  text-decoration:none;
+  font-family:'Caveat', cursive;
+  font-size: 25px;
+  text-transform:uppercase;
+  color:#63372c;
+}
+
+#nav ul{
+   list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color:#FEC3A6;
+  z-index:10;
+}
+
+#nav li{
+  float:left;
+}
