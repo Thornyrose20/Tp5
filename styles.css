@@ -14,7 +14,7 @@ body {
 }
 
 div{
-  display:inline-block:
+  display:inline-block;
   width:100vw;
   padding:1vw;
 }
@@ -47,19 +47,7 @@ ol {
 /** when window size changes **/
 
 
-@media (orientation: portrait) {
-  
-   div {
-    width: 100vw;
-  }
-  
-}
 
-
-@media (orientation:landscape){
-  width: calc(100vw/3);
-    float: left;
-}
 
 /** Don't add px when adjusting line height **/
 
@@ -94,6 +82,15 @@ div#browniepic{
  }
 
 
+
+@media screen and (orientation: landscape) {
+  
+  div {
+    width: calc(100vw/3 - 1vw);  
+    float: left;
+  }
+  
+}
 
 
 /****** Navigation Bar ***/
